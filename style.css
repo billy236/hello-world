@@ -30,14 +30,23 @@ body {
   font-family: 'segoe ui';
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'segoe ui';
+}
+
 .nav {
   height: 50px;
   width: 100%;
-  background-color: pink;
+  background-color: #4d4d4d;
   position: relative;
 }
 
-.nav  .nav-header {
+.nav > .nav-header {
   display: inline;
 }
 
@@ -117,6 +126,4 @@ body {
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
-  }
-
-
+}
