@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hong Kong Studies, School of Modern Languages and Cultures HKU</title>
+
+<style>
+   
+   img {
+        max-width: 100%;
+        height: auto;
+    }
+    .text1 {
+        text-align: justify;
+        padding-left: 3%;
+        width: 80%;
+    }
+    .leftsidebar {
+        float:left;
+        width: 180px;
+        padding-top: 2%;
+        padding-left: 5px;
+        padding-bottom: 1300px;
+        height: 100%;
+    }
+    .container {
+        width: 100%;
+        margin:0 auto;
+    }
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'segoe ui';
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: pink;
+  position: relative;
+}
+
+.nav  .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color:white;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+  }
+
+
+
+</style>
+</head>
+
+<body class="container">
+<section>
+  <header><img style="border: 0;" src="images/BannerHKGS.jpg" alt="Hong Kong Studies SMLC HKU" width="780" height="165" usemap="#Map"  />
+    <map name="Map" id="Map">
+      <area shape="rect" coords="14,10,251,43" href="http://www.smlc.hku.hk" target="_blank" alt="School of Modern Languages and Cultures HKU" />
+    </map>
+  </header>
+  <!-- end .header -->
+
+  <div class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">
+      abc
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+
+    <nav class="nav-links leftsidebar">
+      <a href="index.html" ><img src="images/But_Home_HKGS.jpg" alt="Home" width="180" height="40" id="Image2" onmouseover="this.src='images/hov_Home_HKGS.jpg'" onmouseout="this.src='images/sel_Home_HKGS.jpg'" /></a>
+      <a  href="aboutus.html"><img src="images/But_About_HKGS.jpg" alt="About Us" width="180" height="40" id="Image3" onmouseover="this.src='images/hov_About_HKGS.jpg'" onmouseout="this.src='images/but_About_HKGS.jpg'" /></a>
+      <a  href="staff.html"><img src="images/But_Staff_HKGS.jpg" alt="Staff" width="180" height="40" id="Image6" onmouseover="this.src='images/hov_Staff_HKGS.jpg'" onmouseout="this.src='images/but_Staff_HKGS.jpg'"/></a>
+      <a href="programme.html"><img src="images/But_Prog_HKGS.jpg" alt="Programme" width="180" height="40" id="Image4" onmouseover="this.src='images/hov_Prog_HKGS.jpg'" onmouseout="this.src='images/but_Prog_HKGS.jpg'"/></a>
+      <a  href="newsevents.html"><img src="images/But_News_HKGS.jpg" alt="News &amp; Events" width="180" height="40" id="Image8" onmouseover="this.src='images/hov_News_HKGS.jpg'" onmouseout="this.src='images/but_News_HKGS.jpg'"/></a>
+      <a  href="links.html"><img src="images/But_Link_HKGS.jpg" alt="Links" width="180" height="40" id="Image9" onmouseover="this.src='images/hov_Link_HKGS.jpg'" onmouseout="this.src='images/but_Link_HKGS.jpg'" /></a>
+      <a  href="contactus.html"><img src="images/But_Contact_HKGS.jpg" alt="Contact Us" width="180" height="40" id="Image10" onmouseover="this.src='images/hov_Contact_HKGS.jpg'" onmouseout="this.src='images/but_Contact_HKGS.jpg'"/></a>
+    </nav>
+  </div>
+  <!-- end .sidebar1 -->
+  <article class="text1">
+    <h2>
+      Hong Kong Studies
+    </h2>
+    <p>
+
+      Hong Kong Studies is an interdisciplinary programme aimed at giving students a broad-based education on Hong Kong—its society, culture, creative industries, economy, politics, history and environment. The programme combines the perspectives and curricular strengths of a variety of disciplines, including literature, art history, history, sociology, politics, economics, journalism and communications.
+
+    </p>
+    <p>
+      The goal for Hong Kong Studies is to adopt a “problem-based” approach where students engage with core issues in Hong Kong’s evolution such as the interaction between citizens/subjects and rulers (imperial, colonial, communist); the importance of symbols in creating Hong Kong identity within colonial and communist eras; Hong Kong’s global influence as a cultural and financial hub; the role of Chinese tradition in creating new meanings for modern Hong Kong; the role of Hong Kong as a transition zone for ideas, capital and people. Graduates will be prepared to enter a wide range of careers in the public and private sectors in which a comprehensive and sophisticated understanding of Hong Kong is essential to success.
+    </p>
+
+    <a href="https://www.facebook.com/Hong-Kong-Studies-HKU-310019785851720/" target="_blank"><img src="hkgsimages/facebook&#32;25.jpg" width="100" height="25" alt="HKGS Facebook" /></a>
+    <hr>
+  </article>
+ 
+  <article class="text1">
+    <h2>
+      Hong Kong Keywords 2018 - Cultures Reimagined: Inheritance in Hong Kong Popular Cultures
+    </h2>
+
+    <p>Undergraduate and Postgraduate Workshop - 13 June 2018</p>
+    <h1>Abstract due 4 May 2018:</h1>
+    <p>
+
+      Initiated for undergraduate and postgraduate students, a single day bilingual workshop on “Cultures Reimagined: Inheritance in Hong Kong Popular Cultures” will be held on 13 June 2018 (Wed) at the University of Hong Kong.  Each participant will present his/her selected keyword related to Hong Kong popular cultures in Cantonese, Mandarin or English.  Grouped in similar topics and themes, each of the speakers in a panel will have 15 to 20 minutes for presentation, followed by a 15 minutes Q and A session.<br />
+        Submission of Abstract: 
+
+    </p>
+
+    <h1>
+      Submission of Abstract: 
+    </h1>
+    <p>Please limit your abstract to 200 to 300 words in English or Chinese. Your abstract should illustrate the correlation between your keyword and specific context(s) of Hong Kong popular cultures.  Please submit via email to keywordsasia@gmail.com on or before 4 May 2018 (Fri).  Results will be announced by mid-May 2018.</p>
+    </p>
+
+    <a href="https://www.keywordsasia.org/hong-kong-keywords-2018" target="_blank"><img src="hkgsimages/Keywords2018_98.jpg" width="98" height="56" alt="20150212" /></a>
+    <hr>
+  </article>
+  
+  <article class="text1">
+    <h2>
+      Keywords of Theory Asia 亞洲理論關鍵詞
+    </h2>
+    <p>
+
+      As an intellectual joint-venture situated in-between Taiwan, Hong Kong and overseas Chinese communities, Keywords of Asia is initiated through a collaboration between Knowledge Taiwan Collective and the Hong Kong Studies Programme at the University of Hong Kong for exploring new cultural perspectives most relevant to the emerging transnationality and mutiplicity of Sinophonic cultures.
+
+    </p>
+  
+
+    <a href="http://www.keywordsasia.org/" target="_blank"><img src="hkgsimages/Keywords&#32;Web&#32;Icon&#32;25.jpg" width="75" height="25" alt="Keywords of Theory Asia" /></a>
+    <hr>
+  </article>
+
+  <article class="text1">
+    <h2>
+      News &amp; Events
+    </h2>
+    <p>
+
+      21 September 2019 (Saturday)
+
+    </p>
+    <h1>Workshop:</h1>
+    <a href="https://hkstudy.hku.hk/news/20190921.html">Voices of Hong Kong - The New Sensitive 香港的聲音 – 新敏感詞</a>
+
+    <h1>Venue: </h1>
+    <p>Room 4.36, Run Run Shaw Tower, Centennial Campus, HKU</p>
+    <a href="https://hkstudy.hku.hk/news/20190921.html"><img src="https://hkstudy.hku.hk/news/images/20190921_01_160.jpg" width="113" height="160" alt="News &amp; Events" /></a>
+    <hr>
+  </article>
+  <footer>
+    <img src="images/BottomHKGS.jpg" width="780" height="20" alt="EUST footer" />
+  </footer>
+  <!-- end .footer -->
+</section>
+</body>
+</html>
